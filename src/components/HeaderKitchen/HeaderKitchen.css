@@ -1,0 +1,111 @@
+.header-Kitchen {
+  position: relative;
+  height: 80vh;
+  background-image: url('https://websitedemos.net/blog-02/wp-content/uploads/sites/132/2017/11/pic26-free-img.jpg');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.header-overlay-Kitchen{
+  background-color: rgba(0, 0, 0, 0.755);
+position: absolute;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+
+.header-content-Kitchen {
+  color: white;
+  z-index: 2;
+}
+
+.header-logo-Kitchen {
+  width: 170px;
+  position: relative;
+  bottom: 180px;
+  margin-right: 900px;
+}
+
+
+.navbar {
+  position: absolute;
+  top: -25px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  padding: 20px 50px;
+  margin-right: 1000px;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none solid rgb(255, 255, 255);
+  font-size: 16.5px;
+  font-family: "Libre Franklin", sans-serif;
+  font-weight: 600;
+  line-height: 70px;
+  text-transform: capitalize;
+  word-spacing: 0px;
+
+
+}
+
+.welcomemessageKitchen{
+  font-family: Montserrat, sans-serif;
+  font-size: 80px;
+  font-weight: 700;
+  line-height: 112px;
+  text-decoration: none solid rgb(255, 255, 255);
+  text-align: center;
+  word-spacing: 0px;
+  height: auto;
+  width: auto;
+  
+}
+
+.outt{
+  font-family: "Libre Franklin", sans-serif;
+  font-size: 15px;
+  line-height: 24px;
+  text-decoration: none solid ;
+  text-align: center;
+  word-spacing: 0px;
+  height: auto;
+  width: auto;
+  margin-top: -50px;
+  position: relative;
+  left: -20px;
+ 
+  
+}
+
+.outtt{
+  font-family: "Libre Franklin", sans-serif;
+  font-size: 15px;
+  line-height: 24px;
+  text-decoration: none solid ;
+  text-align: center;
+  word-spacing: 0px;
+  height: auto;
+  width: auto;
+  position: relative;
+  top: -53px;
+  
+ 
+  
+}
