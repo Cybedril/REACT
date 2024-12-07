@@ -62,51 +62,74 @@ root.render(
               <Footer />
             </>
           }
-          Route
-          path="/Outdoors"
-          element={
-            <>
-              <HeaderOutdoors />
-              <ArticleCard />
-              <ArticleCardV2 />
-              <ArticleCardV3 />
-              <ArticleCardV4 />
-              <ArticleCardV5 />
-              <SearchBar />
-              <RecentPosts />
-              <Tags />
-              <Footer />
-            </>
-          }
         />
+          <Route path="/About" element={
+    <>
+       <HeaderAbout /> 
+       <WorkingSince />
+       <LogoSection />
+       <Footer2 /> 
+   </>
+  }
+ /> 
 
-        <Route
-          path="/Kitchen"
-          element={
-            <>
-              <HeaderKitchen />
-              <ArticleCard />
-              <ArticleCardV2 />
-              <ArticleCardV3 />
-              <ArticleCardV4 />
-              <ArticleCardV5 />
-              <SearchBar />
-              <RecentPosts />
-              <Tags />
-              <Footer />
-            </>
-          }
-        />
+<Route path="/LivingRoom" element={
+    <>
+       <HeaderLiving /> 
+       <ArticleCard/>
+       <ArticleCardV2 />
+       <ArticleCardV3 />
+       <ArticleCardV4 />
+       <ArticleCardV5 />
+       <Pagination2 />
+       <SearchBar />
+       <RecentPosts />
+       <Tags />
+       <Footer />
+   </>
+  }
+ /> 
 
-        <Route
-          path="/Contact"
-          element={
-            <>
-              <HeaderContact />
-              <Footer2 />
-            </>
-          }
-        />
+<Route path="/Outdoors" element={
+    <>
+       <HeaderOutdoors /> 
+       <ArticleCard/>
+       <ArticleCardV2 />
+       <ArticleCardV3 />
+       <ArticleCardV4 />
+       <ArticleCardV5 />
+       <SearchBar />
+       <RecentPosts />
+       <Tags />
+       <Footer />
+   </>
+  }
+ /> 
+
+<Route path="/Kitchen" element={
+    <>
+       <HeaderKitchen /> 
+       <ArticleCard/>
+       <ArticleCardV2 />
+       <ArticleCardV3 />
+       <ArticleCardV4 />
+       <ArticleCardV5 />
+       <SearchBar />
+       <RecentPosts />
+       <Tags />
+       <Footer />
+   </>
+  }
+ /> 
+
+<Route path="/Contact" element={
+    <>
+       <HeaderContact /> 
+       <Footer2/>
+       
+   </>
+  }
+ /> 
       </Routes>
     </Router>
   </React.StrictMode>
