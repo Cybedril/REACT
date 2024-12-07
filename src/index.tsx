@@ -20,7 +20,9 @@ import WorkingSince from "./components/WorkingSince/WorkingSince";
 import Tags from "./components/Tags/Tags";
 import Footer from "./components/Footer/Footer";
 import Footer2 from "./components/Footer2/Footer2";
+import Footer3 from "./components/Footer3/Footer3";
 import ReactDOM from "react-dom/client";
+import Maps from "./components/Adresse/Maps"
 import "./index.css";
 import reportWebVitals from "./reportWebVitals";
 import "./components/Header/Header.css";
@@ -125,7 +127,8 @@ root.render(
 <Route path="/Contact" element={
     <>
        <HeaderContact /> 
-       <Footer2/>
+        <Maps/>
+       <Footer3/>
        
    </>
   }
