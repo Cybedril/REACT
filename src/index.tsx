@@ -64,6 +64,33 @@ root.render(
   }
  /> 
 
+<Route path="/About" element={
+    <>
+       <HeaderAbout /> 
+       <WorkingSince />
+       <LogoSection />
+       <Footer2 /> 
+   </>
+  }
+ /> 
+
+<Route path="/LivingRoom" element={
+    <>
+       <HeaderLiving /> 
+       <ArticleCard/>
+       <ArticleCardV2 />
+       <ArticleCardV3 />
+       <ArticleCardV4 />
+       <ArticleCardV5 />
+       <Pagination2 />
+       <SearchBar />
+       <RecentPosts />
+       <Tags />
+       <Footer />
+   </>
+  }
+ /> 
+
 
 
 </Routes>
