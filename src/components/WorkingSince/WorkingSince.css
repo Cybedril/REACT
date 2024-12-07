@@ -1,0 +1,77 @@
+/* Section globale */
+.section-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+    max-width: 1200px;
+    margin: auto;
+    position: relative;
+    top: 120px;
+    left: 100px;
+  }
+
+  .text1{
+    font-size: 15px;
+    font-family: "Libre Franklin", sans-serif;
+  }
+
+  .text2{
+    font-size: 15px;
+    font-family: "Libre Franklin", sans-serif;
+  }
+  
+
+  /* Conteneur de l'image */
+  .image-container {
+    position: relative;
+    max-width: 50px;
+    height: auto;
+    
+  }
+  
+.styled-image{
+    height: 420px;
+    width: 520px;
+}
+  
+  /* Conteneur du texte */
+  .text-container {
+    width: 45%;
+    padding-left: 1rem;
+    margin-right: 90px;
+  }
+  
+  .text-container h2 {
+    font-size: 40px;
+    font-family: montserrat, sans-serif;
+    font-weight: 700;
+    margin-bottom: 120px;
+  }
+  
+  .underline {
+    width: 100px;
+    height: 1.2px;
+    background-color: #e63946; /* Rouge pour la ligne */
+    border: none;
+    margin: 0.5rem 1rem;
+    margin-bottom: 40px;
+  }
+  
+  .text-container p {
+    line-height: 1.6;
+    
+  }
+  
+  .highlighted-text {
+    margin: 1rem 0;
+    font-size: 22px;
+    font-style: italic;
+    font-family: "Libre Franklin", sans-serif;
+  }
+
+  .afterworking{
+    position: relative;
+    top: -70px;
+  }
+  

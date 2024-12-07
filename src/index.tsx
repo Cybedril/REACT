@@ -44,72 +44,29 @@ const root = ReactDOM.createRoot(
 root.render(
   <React.StrictMode>
     <Router>
-      <Routes>
-        <Route
-          path="/"
-          element={
-            <>
-              <Header />
-              <ArticleCard />
-              <ArticleCardV2 />
-              <ArticleCardV3 />
-              <ArticleCardV4 />
-              <ArticleCardV5 />
-              <Pagination />
-              <SearchBar />
-              <RecentPosts />
-              <Tags />
-              <Footer />
-            </>
-          }
-        />
-        <Route
-          path="/Outdoors"
-          element={
-            <>
-              <HeaderOutdoors />
-              <ArticleCard />
-              <ArticleCardV2 />
-              <ArticleCardV3 />
-              <ArticleCardV4 />
-              <ArticleCardV5 />
-              <SearchBar />
-              <RecentPosts />
-              <Tags />
-              <Footer />
-            </>
-          }
-        />
+<Routes>
+  <Route path="/" element={
+    <>
+       <Header /> 
+       <ArticleCard/>
+       <ArticleCardV2 />
+       <ArticleCardV3 />
+       <ArticleCardV4 />
+       <ArticleCardV5 />
+       <Pagination />
+       <SearchBar />
+       <RecentPosts />
+       <Tags />
+       <Footer />
+   </>
+  }
+ /> 
 
-        <Route
-          path="/Kitchen"
-          element={
-            <>
-              <HeaderKitchen />
-              <ArticleCard />
-              <ArticleCardV2 />
-              <ArticleCardV3 />
-              <ArticleCardV4 />
-              <ArticleCardV5 />
-              <SearchBar />
-              <RecentPosts />
-              <Tags />
-              <Footer />
-            </>
-          }
-        />
 
-        <Route
-          path="/Contact"
-          element={
-            <>
-              <HeaderContact />
-              <Footer2 />
-            </>
-          }
-        />
-      </Routes>
-    </Router>
+
+</Routes>
+</Router>
+    
   </React.StrictMode>
 );
 
